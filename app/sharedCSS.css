@@ -1,0 +1,478 @@
+/* nav */
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+/* nav */
+.nav {
+  width: 15rem;
+  background-color: rgb(59, 59, 159);
+  margin: 1rem 0 1rem 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+  line-height: 4rem;
+  color: white;
+  font-size: 14px;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0;
+  border: 1px solid white;
+  padding: 1.3rem 1.3rem 0 1.3rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background-color: white;
+}
+.link {
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+.link:hover {
+  background-color: rgb(42, 42, 90);
+  color: white;
+  transition: 0.5s;
+  box-shadow: 3px 3px 1px white;
+}
+.link :nth-child(2) {
+  margin: 0 0 4px 5px;
+  padding-bottom: 3px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 1rem 3.5rem 1.5rem 3.5rem;
+}
+.firstPage h5 {
+  margin-left: 3.4rem;
+  font-weight: 300;
+}
+
+/* numbers and chart */
+.firstPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.firstPage h1 {
+  font-size: 1.5rem;
+}
+
+/* numbers */
+.top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 16px;
+  margin-bottom: 2rem;
+}
+.box {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px rgb(13, 4, 101);
+}
+.detail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 4rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.left :nth-child(1) {
+  font-size: 20px;
+}
+.left :nth-child(2) {
+  font-size: small;
+}
+
+.l3 :nth-child(1) {
+  font-size: 10px;
+  color: rgb(94, 200, 115);
+}
+.l3 :nth-child(2) {
+  font-size: 10px;
+}
+.right {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  border-radius: 50px;
+  background-image: linear-gradient(rgb(206, 206, 220), rgb(251, 252, 255));
+}
+/* chart */
+.chart {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  height: 61vh;
+  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 2px rgb(13, 4, 101);
+}
+
+/* list */
+
+.secondPage {
+  background-color: rgb(255, 255, 255);
+  height: 81vh;
+  width: 97%;
+  overflow: scroll;
+  margin: 1rem;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 2px 2px 2px rgb(13, 4, 101);
+}
+
+.list {
+  margin: 0 2rem 0.5rem 0;
+  padding: 0.6rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgb(13, 4, 101);
+}
+.p {
+  text-decoration: none;
+  color: black;
+}
+.name {
+  display: flex;
+  align-items: center;
+}
+.titleUser {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 2.5rem 1.5rem 5.2rem;
+  font-weight: 600;
+}
+.titleUser :nth-child(2) {
+  font-size: 12px;
+  color: gray;
+  font-style: italic;
+  font-weight: 300;
+}
+.list:hover {
+  cursor: pointer;
+  box-shadow: 3px 5px 8px black;
+  transition: 0.2s;
+}
+.img {
+  border-radius: 15px;
+  width: 33px;
+  margin-right: 1rem;
+}
+/* minimenu */
+.hide {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(59, 59, 159);
+}
+.hide a {
+  text-decoration: none;
+  margin: 1rem 1rem 0 0;
+  color: white;
+  display: none;
+}
+
+/* details */
+.two {
+  display: flex;
+  justify-content: space-evenly;
+  height: 90%;
+}
+
+.titlee {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1rem 0 0;
+}
+.detailsLeft {
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  height: fit-content;
+  margin: 1rem;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 2px rgb(13, 4, 101);
+  line-height: 1.3rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  height: 100%;
+}
+.items :nth-child(1) {
+  margin: 1.5rem 0;
+}
+.detailsImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 2rem;
+  border: 0.5px solid gray;
+  box-shadow: 2px 2px 2px rgb(13, 4, 101);
+}
+.img1 {
+  width: 13rem;
+}
+.span {
+  font-weight: 600;
+}
+.parentB {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem;
+  background-color: rgb(231, 238, 244);
+}
+.boxes {
+  width: 100%;
+  height: 30%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 2px 2px 2px rgb(13, 4, 101);
+}
+.boxT {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.boxT h3 {
+  margin-bottom: 2rem;
+}
+.two h2,
+.two h3 {
+  font-weight: 500;
+}
+/* add patients */
+.new2 {
+  display: flex;
+}
+.newp {
+  height: fit-content;
+  width: 15rem;
+  background-color: white;
+  margin: 0 1rem 0 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px rgb(13, 4, 101);
+}
+
+.newPatient {
+  width: 100%;
+  margin: 0 1rem 1rem 0;
+  gap: 1rem;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+.btns button {
+  font-size: 1rem;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btns button:hover {
+  box-shadow: 2px 2px 2px gray;
+  transition: 0.5s;
+}
+.inp {
+  display: flex;
+  align-items: center;
+}
+.inp :nth-child(2) {
+  margin-left: 1rem;
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  padding-left: 0.5rem;
+}
+.boxP {
+  background-color: white;
+  height: fit-content;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px rgb(13, 4, 101);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.boxItem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.ite {
+  margin: 1rem 2rem 0rem 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.5px solid black;
+}
+.ite1 {
+  margin: 0.5rem 2rem 1rem 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.5px solid black;
+}
+
+.ite1 :nth-child(1) {
+  font-weight: 600;
+}
+.ite :nth-child(1) {
+  font-weight: 600;
+}
+.form {
+  margin: 1rem 2rem 0 2rem;
+}
+.form input {
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 1rem;
+  border-color: rgb(13, 4, 101);
+  margin-top: 4px;
+  width: 100%;
+}
+
+.form button {
+  background-color: rgb(18, 157, 5);
+  padding: 0.5rem;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 2rem;
+  transition: 0.5s;
+  width: 100%;
+  font-size: 1rem;
+}
+.form button:hover {
+  background-color: rgb(46, 123, 57);
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgb(127, 127, 127);
+}
+@media screen and (max-width: 720px) {
+  .firstPage {
+    align-items: center;
+  }
+  h1 {
+    margin-top: 4rem;
+  }
+  .top {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 1rem;
+    height: 100vh;
+  }
+  .nav {
+    display: none;
+  }
+  .list {
+    padding: 0.2rem;
+  }
+  .chart {
+    padding: 1rem;
+    width: 90%;
+  }
+  .hide a {
+    display: initial;
+    margin-bottom: 1rem;
+  }
+  .secondPage {
+    width: 88%;
+  }
+  .hid {
+    display: none;
+  }
+  /* details */
+  .two {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .detailsLeft {
+    margin-top: 29.8rem;
+    width: 88%;
+    height: 75%;
+  }
+  .parentB {
+    align-items: center;
+  }
+  .boxes {
+    width: 88%;
+    margin-bottom: 2rem;
+  }
+  .boxT h3 {
+    padding-bottom: 8px;
+  }
+  /* add patient */
+  .new2 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .newPatient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+  }
+  .boxP {
+    width: 90%;
+    margin: 0 1rem;
+  }
+  .newp {
+    width: 90%;
+    margin: 1rem;
+  }
+  .form input {
+    width: 100%;
+  }
+  .firstPage h1 {
+    margin-top: 6rem;
+  }
+  .boxItem {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+  .ite {
+    margin: 8px 0 0 2rem;
+    border-bottom: none;
+  }
+  .ite1 {
+    margin: 0 0 4px 2rem;
+    border-bottom: none;
+  }
+}
