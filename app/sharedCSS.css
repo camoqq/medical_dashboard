@@ -475,4 +475,11 @@ h1 {
     margin: 0 0 4px 2rem;
     border-bottom: none;
   }
+  .btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .inp {
+    margin-bottom: 12px;
+  }
 }
